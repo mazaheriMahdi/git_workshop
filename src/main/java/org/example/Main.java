@@ -2,8 +2,6 @@ package org.example;
 
 import org.example.Models.Person;
 
-import java.lang.reflect.Array;
-import java.security.PermissionCollection;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
