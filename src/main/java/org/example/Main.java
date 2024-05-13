@@ -15,11 +15,11 @@ public class Main {
         Person mahdiMazaheri = new Person("Mahdi Mazaheri 🔥🐢");
         // Construct your person object below
 
-
+        Person mamad=new Person("Mamad 🔥");
         // ----------------------------------------
-        personArrayList.add(mahdiMazaheri);
+        personArrayList.add(mamad);
         personArrayList.addAll(Arrays.asList(
-                // Add your person object here
+                mamad
         ));
         printResultToTerminal();
     }
