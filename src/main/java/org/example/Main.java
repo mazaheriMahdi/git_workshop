@@ -19,6 +19,7 @@ public class Main {
         // ----------------------------------------
         personArrayList.add(mamad);
         personArrayList.addAll(Arrays.asList(
+                mamad
         ));
         printResultToTerminal();
     }
