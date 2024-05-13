@@ -25,6 +25,7 @@ public class Main {
     }
 
     private static void printResultToTerminal() {
+        System.out.println("Git Workshop 📦");
         personArrayList.stream().forEach(person -> {
             colorQueue.add(colorQueue.peek());
             System.out.println(colorQueue.poll() + person.getName());
