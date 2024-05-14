@@ -13,6 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
         Person mahdiMazaheri = new Person("Mahdi Mazaheri 🔥🐢");
+        Person mohammadJamshidi = new Person("Mohammad Jamshidi 💥💎");
         // Construct your person object below
 
 
@@ -20,6 +21,7 @@ public class Main {
         personArrayList.add(mahdiMazaheri);
         personArrayList.addAll(Arrays.asList(
                 // Add your person object here
+                mohammadJamshidi
         ));
         printResultToTerminal();
     }
