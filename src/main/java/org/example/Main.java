@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
         Person mahdiMazaheri = new Person("Mahdi Mazaheri 🔥🐢");
         // Construct your person object below
-        Person negarFereidouni = new Person();
+        Person negarFereidouni = new Person("Negar Fereidouni");
 
 
         // ----------------------------------------
