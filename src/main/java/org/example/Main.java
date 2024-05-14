@@ -30,7 +30,7 @@ Person zahra=new Person("zahra Mahdavi ✨");
             System.out.println(colorQueue.poll() + person.getName());
         });
     }
-
+//
     public static int sum(int x, int y) {
         return 0;
     }
