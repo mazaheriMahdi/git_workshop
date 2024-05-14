@@ -14,12 +14,12 @@ public class Main {
     public static void main(String[] args) {
         Person mahdiMazaheri = new Person("Mahdi Mazaheri 🔥🐢");
         // Construct your person object below
-
+Person zahra=new Person("zahra Mahdavi ✨");
 
         // ----------------------------------------
         personArrayList.add(mahdiMazaheri);
         personArrayList.addAll(Arrays.asList(
-                // Add your person object here
+                zahra
         ));
         printResultToTerminal();
     }
@@ -30,7 +30,7 @@ public class Main {
             System.out.println(colorQueue.poll() + person.getName());
         });
     }
-
+//
     public static int sum(int x, int y) {
         return 0;
     }
