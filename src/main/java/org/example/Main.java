@@ -13,13 +13,14 @@ public class Main {
 
     public static void main(String[] args) {
         Person mahdiMazaheri = new Person("Mahdi Mazaheri 🔥🐢");
+        Person narges = new Person("narges jamshidi 🔥🐢");
         // Construct your person object below
 
 
         // ----------------------------------------
         personArrayList.add(mahdiMazaheri);
         personArrayList.addAll(Arrays.asList(
-                // Add your person object here
+                narges
         ));
         printResultToTerminal();
     }
