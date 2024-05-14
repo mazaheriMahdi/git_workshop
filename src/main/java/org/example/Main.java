@@ -12,12 +12,12 @@ public class Main {
     private static final Queue<String> colorQueue = new LinkedList(Arrays.asList("\u001B[31m", "\u001B[32m", "\u001B[33m", "\u001B[34m", "\u001B[35m", "\u001B[36m", "\u001B[37m"));
 
     public static void main(String[] args) {
-        Person mahdiMazaheri = new Person("Mahdi Mazaheri 🔥🐢");
+        Person aghaSadeq = new Person("Agha Sadeq 🔥🐢");
         // Construct your person object below
 
 
         // ----------------------------------------
-        personArrayList.add(mahdiMazaheri);
+        personArrayList.add(aghaSadeq);
         personArrayList.addAll(Arrays.asList(
                 // Add your person object here
         ));
